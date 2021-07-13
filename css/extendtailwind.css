@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: josefinMedium500;
+        src: url(./Josefin_Sans/static/JosefinSans-Medium.ttf);
+    }
+    @font-face{
+        font-family: josefinRegular400;  
+        src: url(./Josefin_Sans/static/JosefinSans-Regular.ttf);
+    }
+}
+
+/* npx tailwindcss -i ./css/extendedtailwind.css -o ./css/tailwind.css */

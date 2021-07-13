@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.josefinRegular400{
+    font-family: josefinRegular400;  
+}
+.josefinmedium500{
+    font-family: josefinMedium500;
+}
+
+.header-container{
+    background-image: url(./images/bg-mobile-light.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 24px 44px 24px;
+}
+ /* .title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 13px; 
+} 
+.todo-input{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    padding: 18px 0 18px 20px;
+    margin-top: 40px;
+} */
+ 
